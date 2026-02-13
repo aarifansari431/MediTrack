@@ -1,16 +1,16 @@
 package com.airtribe.meditrack.exception;
 
 /**
- * Exception thrown when invalid data is provided to the system.
+ * Exception thrown when a patient is not found in the system.
  */
-public class InvalidDataException extends Exception {
+public class PatientNotFoundException extends Exception {
     
     /**
      * Constructor with message.
      *
      * @param message the error message
      */
-    public InvalidDataException(String message) {
+    public PatientNotFoundException(String message) {
         super(message);
     }
     
@@ -20,7 +20,7 @@ public class InvalidDataException extends Exception {
      * @param message the error message
      * @param cause   the cause of the exception
      */
-    public InvalidDataException(String message, Throwable cause) {
+    public PatientNotFoundException(String message, Throwable cause) {
         super(message, cause);
     }
 }
