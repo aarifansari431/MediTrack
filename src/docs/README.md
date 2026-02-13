@@ -8,7 +8,7 @@ appointments, and billing using Core Java and OOP principles.
 - Appointment creation, cancellation, rescheduling
 - Enum-based appointment status
 - Billing with Strategy Pattern
-- Observer-based appointment notifications
+- Observer-based appointment notification
 - CSV persistence
 - Streams & Lambdas for search
 - Generic DataStore
@@ -35,3 +35,4 @@ appointments, and billing using Core Java and OOP principles.
 
 Appointment created. Status: PENDING
 🔔 Appointment update: Status = CONFIRMED
+
